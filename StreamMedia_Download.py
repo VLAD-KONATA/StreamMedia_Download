@@ -6,7 +6,7 @@ import os
 
 
 def geturl():
-    file = open(r"C:\Users\杨明菲\Desktop\replay.1660365722.27668076.m3u8",'r')
+    file = open(r"m3u8path",'r')
     urllist=[]
     #获取m3u8的url
     while True:
